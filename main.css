@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/forrest-cavale-qfmd9bu7IgA-unsplash.jpg);
+    background-size: cover;
+
+}
+
+.hero-section .nav-bar {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(black , transparent);
+    height: 4rem;
+}
+
+
+.hero-section .nav-bar .nav-title a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    margin-left: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-section .nav-bar .nav-elements {
+    margin-left: 500px;
+}
+
+.hero-section .nav-bar .nav-elements a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-section .nav-bar .nav-elements a:hover {
+    text-decoration: underline rgb(112, 222, 112);
+    text-underline-offset: 5px;
+}
+
+.text-elements {
+    display: flex;
+}
+
+.main-text {
+    color: white;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.main-text h1 {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.main-text p {
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+}
+
+.secondary-text {
+    color: white;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.secondary-text p {
+    padding: 15px;
+    margin: 80px 0;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 8px;
+    border-left: 4px solid aqua;
+}
